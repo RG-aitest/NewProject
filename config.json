@@ -1,0 +1,33 @@
+{
+	"ModelOption": 1,
+	"ModelMap": {
+	"1": "LLaMA",
+	"2": "AWS"
+	},
+	"EmbeddingModel": "sentence-transformers/all-MiniLM-L6-v2",
+	"VectorDBPath": "./vector_store/faiss_index",
+	"DataFolder": "./data",
+	"PublicAPI": "USGS",
+	"LLMEndpoint": "http://localhost:11434/api/generate",
+	"ChunkSize": 500,
+	"ChunkOverlap": 50,
+	"FrontendMode": "API",
+	"BackendURL": "http://localhost:8000/ask",
+	"PublicAPIs": [
+	{
+	  "name": "USGS Water Quality Portal",
+	  "url_template": "https://www.waterqualitydata.us/data/Result/search?statecode=US:{state}&pCode={parameter_code}&mimeType=json",
+	  "description": "Use this API to fetch structured water quality data in the US by state and parameter code."
+	},
+	{
+	  "name": "EPA Facility Registry",
+	  "url_template": "https://enviro.epa.gov/enviro/facility_search/{state}.json",
+	  "description": "Use this API to retrieve structured information about environmental facilities in the US."
+	},
+	{
+	  "name": "CDC Environmental Tracking",
+	  "url_template": "https://www.cdc.gov/envirotracking/api/{param}",
+	  "description": "Use this API to fetch health and environmental tracking data."
+	}
+	]
+}
