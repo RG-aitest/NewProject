@@ -40,11 +40,12 @@ Run unit tests using pytest:
 pytest test_agent.py
 
 
-Project Structure\n
-├── AIBot.py              # LangChain agent logic\n
-├── AIBot_UI.py           # Optional Streamlit UI\n
-├── ingest.py             # Document ingestion and FAISS indexing\n
-├── backend.py            # FastAPI backend\n
+Project Structure
+<pre>```txt
+├── AIBot.py              # LangChain agent logic
+├── AIBot_UI.py           # Optional Streamlit UI
+├── ingest.py             # Document ingestion and FAISS indexing
+├── backend.py            # FastAPI backend
 ├── test_agent.py         # Unit tests
 ├── Dockerfile            # Docker setup
 ├── requirements.txt      # Python dependencies
@@ -54,7 +55,7 @@ Project Structure\n
 ├── drawio/design.drawio  # Architecture diagram
 ├── HLDv1.0.docx          # High-level design document
 └── README.md             # Project overview
-
+```</pre>
 
 
 5. Design Assets
