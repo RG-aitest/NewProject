@@ -41,7 +41,7 @@ pytest test_agent.py
 
 
 Project Structure
-<pre>```txt
+```
 ├── AIBot.py              # LangChain agent logic
 ├── AIBot_UI.py           # Optional Streamlit UI
 ├── ingest.py             # Document ingestion and FAISS indexing
@@ -55,7 +55,7 @@ Project Structure
 ├── drawio/design.drawio  # Architecture diagram
 ├── HLDv1.0.docx          # High-level design document
 └── README.md             # Project overview
-```</pre>
+```
 
 
 5. Design Assets
