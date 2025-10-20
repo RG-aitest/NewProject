@@ -40,11 +40,11 @@ Run unit tests using pytest:
 pytest test_agent.py
 
 
-Project Structure
-├── AIBot.py              # LangChain agent logic
-├── AIBot_UI.py           # Optional Streamlit UI
-├── ingest.py             # Document ingestion and FAISS indexing
-├── backend.py            # FastAPI backend
+Project Structure\n
+├── AIBot.py              # LangChain agent logic\n
+├── AIBot_UI.py           # Optional Streamlit UI\n
+├── ingest.py             # Document ingestion and FAISS indexing\n
+├── backend.py            # FastAPI backend\n
 ├── test_agent.py         # Unit tests
 ├── Dockerfile            # Docker setup
 ├── requirements.txt      # Python dependencies
