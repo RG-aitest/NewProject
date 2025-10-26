@@ -15,6 +15,11 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 EXPOSE 8501
 
+
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
 # Run both services
 CMD ["/start.sh"]
+
 
