@@ -19,13 +19,13 @@ This project uses a LangChain-powered agent to answer environmental and sustaina
 ---
 
 🚀 Setup Instructions
-
+```
 🔧 Local Setup (Optional)
 bash
 pip install -r requirements.txt
 python backend.py
 streamlit run AIBot_UI.py
-
+```
 1.Build the Docker Image
 docker build -t intelli-agent .
 
