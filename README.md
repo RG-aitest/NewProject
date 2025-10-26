@@ -25,6 +25,8 @@ bash
 pip install -r requirements.txt
 python backend.py ---> run it on command shell
 streamlit run AIBot_UI.py   ---> run it on another command shell
+
+Important : ollama must be installed with a model "tinyllama" installed.
 ```
 1.Build the Docker Image
 docker build -t intelli-agent .
